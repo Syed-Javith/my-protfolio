@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table , th , tr ,td{
+    padding : 10px;
+    text-align : left;
+    font-size : 1.25rem ;
+    margin : 10px ;
+    vertical-align : top ;
+
+}
+h1 , h3 , h2{
+    font-family: 'Playfair Display', serif;
+}
+.education{
+    background-color: #212529;
+    color: white;
+}
+.edu-col{
+    padding: 5%;
+    /* border-right: 2px solid white; */
+    /* border-block-end: 0; */
+}
+.skill-col{
+    padding-left: 7%;
+}
+.edu-col div , .skill-col div{
+    padding: 10%;
+}
+.header-container{
+    text-align: center;
+    margin: auto;
+}
+.header-container div{
+    padding: 30px;
+}
+.header-container img{
+    padding: 10px;
+    
+}
+.animate p{
+    font-size: 20px;
+}
+.animate h3{
+    padding: 15px 0;
+}
+.nav-link{
+    margin: auto 5px;
+    color: white;
+}
+nav.fix{
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 1; /* Stay on top */
+    /* top: 0; */
+}
+img{
+    border-radius: 150px;
+}
+a{
+    text-decoration: none;
+    
+}
+th span{
+    float : right;
+}
+ul{
+    margin-block-start: 0;
+}
+li{
+    padding-inline-start : 10px;
+}
+hr{
+    width: 75%;
+}
+.web-dev .para , .database .para ,.app-dev .para , .program .para{
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.25rem;
+}
+.flex-box{
+    display: flex;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    background-color: #212529;
+    color: white;
+}
+.footer div{
+    padding: 1.25%;
+}
+.footer-div{
+    font-size: 1.3rem;
+    line-height: 2;
+    word-spacing: 7px;
+    padding: 5px;
+    justify-content: left;
+    border-right: 1px solid;
+}
+.section-head{
+    text-align: center;
+    padding: 20px;
+}
+.footer-div a{
+    text-decoration: none;
+    color: white;
+}
+.invisible-head ,.invisible-hr{
+    /* color: aliceblue; */
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+@media screen and (max-width:1000px) {
+    .footer div{
+        text-align: center;
+    }
+    .center{
+        text-align: center;
+    }
+    .footer-div{
+        justify-content: left;
+    }
+    .invisible-head{
+        /* color: #212529; */
+        visibility: visible;
+        padding: 10%;
+        text-align: center;
+        width: 100%;
+    }
+    .invisible-hr{
+        visibility: visible;
+        width: 60%;
+    }
+}
+
+/* 
+.animate {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Apply a smooth transition */
+  /* }
+  
+.fade-in {
+    opacity: 1;
+  }
+   */ 
+
+.school-background-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url(' https://t3.ftcdn.net/jpg/03/69/00/58/360_F_369005893_UYbUUUHDiB0HT7vs7EpO0JZ4vf830R5K.jpg');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.college-background-image{
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-teacher-s-college-classroom-coaching-course-poster-background-image_188494.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 125px;
+} */
+
+.hovers:hover{
+    transform: scale(1.025);
+    /* border: 0.5px solid black; */
+    margin-bottom: 3px;
+}
+
+.footer-div .icons{
+    margin-bottom: 0;
+}
+
+.footer-list{
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 0;
+    margin: 0;
+}
+
+.contents{
+    padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .contents {
+        padding-top: 60px; /* Adjust this value for smaller screens */
+    }
+
+}
+/* .footer-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-list li i {
+    margin-right: 10px;
+} */
+
+/* .icons:hover{
+    /* background-color: white; */
+    /* text-decoration: line-through; */
+    /* color: black; */
+/*} */
+.skill-col {
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.skill-col img{
+    margin: 1px;
+}
+/* 
+.profile{
+    background-image: url('/public/images/1661520859252.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
